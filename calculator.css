@@ -1,0 +1,39 @@
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.display {
+  text-align: right;
+  padding: 10px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  font-size: 20px;
+  padding: 5px;
+  border: none;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 20px;
+  border: 1px solid bisque;
+  background-color: bisque;
+  cursor: pointer;
+}
+
+.operator {
+  background-color: bisque;
+}
